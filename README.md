@@ -1,1 +1,1 @@
-"yxshop ÏîÄ¿µÄsolr" 
+"yxshop project solr" 
