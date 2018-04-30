@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<dataConfig>  
+    <dataSource name="source1" type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/yxshop" user="root" password="123" batchSize="-1" />  
+<document>  
+          <entity name="tb_item" pk="ISBN"  dataSource="source1"   
+                query="select * from  tb_item">
+             
+               
+            <field column="title" name="item_title"/>  
+            <field column="sell_point" name="item_sell_point"/>  
+            <field column="price" name="item_price"/>  
+            <field column="image" name="item_image"/>  
+            <field column="category_name" name="item_category_name"/>  
+        </entity>
+</document>  
+</dataConfig>  
